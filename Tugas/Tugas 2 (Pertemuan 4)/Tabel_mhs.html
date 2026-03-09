@@ -8,13 +8,23 @@ Tugas PBW A - Membuat Tabel -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabel Mahasiswa</title>
+    <!-- Link ke file CSS eksternal untuk mengatur tampilan tabel -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Internal CSS untuk mengatur tampilan tabel */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <!-- Membuat header (judul utama), yaitu tabel mahasiswa -->
     <h1>Tabel Mahasiswa</h1>
 
     <!-- Membuat pembungkus tabel dengan border (garis) -->
-    <table border="1">
+    <!--Pake inline css-->
+    <table border="1" cellpadding="10" cellspacing="0">
       <!-- Membuat baris pertama untuk header tabel dengan 5 kolom -->
       <tr>
         <!--kolom 1 untuk nomor -->
