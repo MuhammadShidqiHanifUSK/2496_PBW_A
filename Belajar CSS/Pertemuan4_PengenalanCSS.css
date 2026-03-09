@@ -1,0 +1,13 @@
+body {
+  /*body adalah selector*/
+  background-color: lightblue; /*property/atribut dan value*/
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+/*3 cara menulis css dalam html: 
+inline (ditulis lgsg dalam atribut element html),
+internal (ditulis di dalam tag <style> pada bagian head), 
+external (file terpisah, dihubungin pake link di html nya*/
