@@ -1,3 +1,15 @@
+/* External CSS untuk mengatur tampilan halaman dan tabel mahasiswa */
 body {
   background-color: lightblue;
+}
+
+/* Mengatur font untuk table header */
+th {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Mengatur font-family dan text-align untuk h1 */
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
