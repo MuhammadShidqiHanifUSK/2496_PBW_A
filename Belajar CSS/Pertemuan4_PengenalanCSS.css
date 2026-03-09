@@ -7,6 +7,11 @@ h1 {
   color: aliceblue;
   text-align: center;
 }
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
 /*3 cara menulis css dalam html: 
 inline (ditulis lgsg dalam atribut element html),
 internal (ditulis di dalam tag <style> pada bagian head), 
