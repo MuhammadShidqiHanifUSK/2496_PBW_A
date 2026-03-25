@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e6bb8;
+  color: white;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.home {
+  background: #d9d9d9;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 28px;
+}
+
+.home p {
+  margin-top: 10px;
+  color: #333;
+}
+
+.about {
+  background: whitesmoke;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 28px;
+}
+
+.about p {
+  margin-top: 10px;
+  color: #333;
+}
+
+.contact {
+  background: #d9d9d9;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
